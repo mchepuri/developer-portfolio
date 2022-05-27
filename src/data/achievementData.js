@@ -3,37 +3,28 @@ export const achievementData = {
     achievements : [
         {
             id : 1,
-            title : '2021 Complete Python Bootcamp From Zero to Hero in Python',
-            details : 'A python course from Udemy',
-            date : 'Jan 28, 2021',
-            field : 'Coding',
-            image : 'https://udemy-certificate.s3.amazonaws.com/image/UC-0cd075aa-f55b-4d9f-aec0-119020a4e792.jpg?v=1611846350000'
+            title : 'Paper Presensation  @ 5th APCOG ',
+            details : 'Presentation on Emergence of Ovarian Masses after Hysterectomy at State Conference by Obstetrics and Gynaecological Society Of Guntur',
+            date : 'Jul 14, 2019',
+            field : 'Gynaocology',
+            image : 'https://babycatcher-static.s3.ap-south-1.amazonaws.com/imgs/apcob-1.jpeg'
         },
         {
             id : 2,
-            title : 'The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert',
-            details : 'A MySQL course from Udemy',
-            date : 'May 25, 2021',
-            field : 'Database',
-            image : 'https://udemy-certificate.s3.amazonaws.com/image/UC-91ae3ea2-39ee-4a57-bf23-d397aff0d9a7.jpg?v=1621951317000'
+            title : 'Poster Presentation @ 5th TCOG',
+            details : 'Presentation on Ectopic Molar Pregnency - A Rare Entity at Annaul Congress of Telangana State Obstetrics and Gynaecological Society',
+            date : 'Aug 4, 2019',
+            field : 'Gynaocology',
+            image : 'https://babycatcher-static.s3.ap-south-1.amazonaws.com/imgs/apcob-2.jpeg'
         },
         {
             id : 3,
-            title : 'Machine Learning A-Z: Hands-On Python & R in Data Science',
-            details : 'Data Science Course from Udemy',
-            date : 'Apr 13, 2021',
-            field : 'Machine Learning',
-            image : 'https://udemy-certificate.s3.amazonaws.com/image/UC-d9a7ba99-8635-47e6-96fc-7dd26a3dcbf1.jpg?v=1618297236000'
+            title : 'CME & Workshop on Critical Care',
+            details : 'Workshop on Critical Care - A challenge to the obstetrician',
+            date : 'Jul 12, 2019',
+            field : 'CriticalCare in Obstetrics',
+            image : 'https://babycatcher-static.s3.ap-south-1.amazonaws.com/imgs/kims-1.jpeg'
         },
-        {
-            id : 3,
-            title : 'R Programming A-Z: R For Data Science With Real Exercises!',
-            details : 'R Programming Language Course from Udemy',
-            date : 'Feb 28, 2021',
-            field : 'Data Science',
-            image : 'https://udemy-certificate.s3.amazonaws.com/image/UC-8f5ff8e8-b6a4-4efd-a3fc-7fb63b29e77f.jpg?v=1614489452000'
-        }
-
     ]
 }
 

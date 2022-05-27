@@ -1,8 +1,8 @@
 export const socialsData = {
     github: 'https://github.com/sreerag-rajan',
-    facebook: '',
+    facebook: 'https://www.facebook.com/obgynhyd',
     linkedIn: 'https://www.linkedin.com/in/sreerag-rajan-55383a222',
-    instagram: '',
+    instagram: 'https://instagram.com/dr.sindhushagundlapally?igshid=YzAyZWRlMzg=',
     codepen: '',
     twitter: '',
     reddit: '',

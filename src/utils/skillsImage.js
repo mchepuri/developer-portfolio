@@ -75,10 +75,19 @@ import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
 
 import canva from '../assets/svg/skills/canva.svg'
 
+import surgical from '../assets/svg/skills/surgical.svg'
+import clinical from '../assets/svg/skills/clinical.svg'
+import laproscopy from '../assets/svg/skills/laproscopy.svg'
 
 export const skillsImage = (skill) => {
     const skillID = skill.toLowerCase();
     switch (skillID) {
+        case 'c sections':
+            return surgical;
+        case 'womens health':
+            return clinical;    
+        case 'laproscopic surgery':
+            return laproscopy;
         case 'gcp':
             return gcp;
         case 'html':

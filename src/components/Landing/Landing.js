@@ -75,7 +75,7 @@ function Landing() {
                     style={{ backgroundColor: theme.primary }}
                 >
                     <div className='lcl--content'>
-                        {socialsData.linkedIn && (
+                        {/*  {socialsData.linkedIn && (
                             <a
                                 href={socialsData.linkedIn}
                                 target='_blank'
@@ -101,7 +101,7 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {/* {socialsData.twitter && (
+                       {socialsData.twitter && (
                             <a
                                 href={socialsData.twitter}
                                 target='_blank'
