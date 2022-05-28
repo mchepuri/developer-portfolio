@@ -1,23 +1,10 @@
 import React, { useContext, useState } from 'react';
-import { Snackbar, IconButton, SnackbarContent } from '@material-ui/core';
-import CloseIcon from '@material-ui/icons/Close';
 import axios from 'axios';
 import isEmail from 'validator/lib/isEmail';
 import { makeStyles } from '@material-ui/core/styles';
 import {
-    FaTwitter,
-    FaLinkedinIn,
-    FaGithub,
-    FaYoutube,
-    FaBloggerB,
-    FaRedditAlien,
-    FaStackOverflow,
-    FaCodepen,
     FaInstagram,
-    FaGitlab,
-    FaMediumM,
 } from 'react-icons/fa';
-import { AiOutlineSend, AiOutlineCheckCircle } from 'react-icons/ai';
 import { FiPhone, FiAtSign } from 'react-icons/fi';
 import { HiOutlineLocationMarker } from 'react-icons/hi';
 
@@ -363,18 +350,7 @@ function Contacts() {
                                     <FaMediumM aria-label='Medium' />
                                 </a>
                             )*/}
-                            {/*
-                            {socialsData.blogger && (
-                                <a
-                                    href={socialsData.blogger}
-                                    target='_blank'
-                                    rel='noreferrer'
-                                    className={classes.socialIcon}
-                                >
-                                    <FaBloggerB aria-label='Blogger' />
-                                </a>
-                            )}
-                            {socialsData.youtube && (
+                            {/*{socialsData.youtube && (
                                 <a
                                     href={socialsData.youtube}
                                     target='_blank'

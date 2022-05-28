@@ -6,15 +6,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import './Landing.css';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { headerData } from '../../data/headerData';
-import { socialsData } from '../../data/socialsData';
 
-import {
-    FaTwitter,
-    FaLinkedin,
-    FaGithub,
-    FaYoutube,
-    FaBlogger,
-} from 'react-icons/fa';
 
 function Landing() {
     const { theme, drawerOpen } = useContext(ThemeContext);
@@ -127,19 +119,7 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {socialsData.blogger && (
-                            <a
-                                href={socialsData.blogger}
-                                target='_blank'
-                                rel='noreferrer'
-                            >
-                                <FaBlogger
-                                    className='landing--social'
-                                    style={{ color: theme.secondary }}
-                                    aria-label='Blogger'
-                                />
-                            </a>
-                        )} */}
+                       */}
                     </div>
                 </div>
                 <img
