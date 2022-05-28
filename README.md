@@ -237,9 +237,6 @@ yarn start
 │   │   ├── Projects
 │   │   │   ├── Projects.css
 │   │   │   ├── Projects.js
-│   │   │   └── SingleProject
-│   │   │       ├── SingleProject.css
-│   │   │       └── SingleProject.js
 │   │   ├── Services
 │   │   │   ├── Services.css
 │   │   │   ├── Services.js
