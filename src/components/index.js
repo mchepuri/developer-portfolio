@@ -7,8 +7,6 @@ export { default as Testimonials } from './Testimonials/Testimonials'
 export { default as Education } from './Education/Education'
 export { default as Experience } from'./Experience/Experience'
 export { default as Contacts } from'./Contacts/Contacts'
-export { default as Services } from'./Services/Services'
-export { default as SingleService } from './Services/SingleService/SingleService'
 export { default as Achievement } from './Achievement/Achievement'
 
 export { default as BackToTop } from'./BackToTop/BackToTop'
