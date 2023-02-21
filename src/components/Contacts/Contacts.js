@@ -304,12 +304,12 @@ function Contacts() {
                             </p>
                         </a>
                         <div className='personal-details'>
-                            <div className={classes.detailsIcon}>
+                            {/*<div className={classes.detailsIcon}>
                                 <HiOutlineLocationMarker />
                             </div>
                             <p style={{ color: theme.tertiary }}>
                                 {contactsData.address}
-                            </p>
+                            </p>*/}
                         </div>
 
                         <div className='socialmedia-icons'>
